@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Autofac" Version="6.1.0" />
+    <ProjectReference Include="..\PluginBase\PluginBase.csproj" />
   </ItemGroup>
 
 </Project>
