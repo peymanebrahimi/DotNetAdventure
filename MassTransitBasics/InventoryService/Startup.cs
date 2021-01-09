@@ -28,7 +28,7 @@ namespace InventoryService
         {
             services.AddMassTransit(config =>
             {
-                config.AddConsumer<OrderConsumer>();
+                config.AddConsumer<OrderConsumer>(); // consumer add as scoped.
 
                 config.UsingRabbitMq((ctx, cfg) =>
                 {
