@@ -1,10 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 using GreenPipes;
 using MassTransit;
-using MassTransitKevinSmith.Messages;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
@@ -36,7 +33,7 @@ namespace MassTransitKevinSmith.Shop
                         {
                             cfg.Host("localhost", "/", h => { });
 
-                            cfg.ReceiveEndpoint("shop",
+                            cfg.ReceiveEndpoint("ShopOrder",
                                 e =>
                                 {
                                     e.PrefetchCount = 16;

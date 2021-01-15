@@ -38,13 +38,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MassTransitKevinSmith", "Ma
 		..\GitHub\MassTransitLightningTalkMarch2018-master\shop-demo.gif = ..\GitHub\MassTransitLightningTalkMarch2018-master\shop-demo.gif
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassTransitKevinSmith.Messages", "MassTransitKevinSmith\MassTransitKevinSmith.Messages\MassTransitKevinSmith.Messages.csproj", "{28D87F72-709A-4D3C-A3ED-39C7D478BCFB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MassTransitKevinSmith.Messages", "MassTransitKevinSmith\MassTransitKevinSmith.Messages\MassTransitKevinSmith.Messages.csproj", "{28D87F72-709A-4D3C-A3ED-39C7D478BCFB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassTransitKevinSmith.Payments", "MassTransitKevinSmith\MassTransitKevinSmith.Payments\MassTransitKevinSmith.Payments.csproj", "{D6ADFF94-EA8A-4870-A1B2-91CCC646D1C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MassTransitKevinSmith.Payments", "MassTransitKevinSmith\MassTransitKevinSmith.Payments\MassTransitKevinSmith.Payments.csproj", "{D6ADFF94-EA8A-4870-A1B2-91CCC646D1C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassTransitKevinSmith.Reporting", "MassTransitKevinSmith\MassTransitKevinSmith.Reporting\MassTransitKevinSmith.Reporting.csproj", "{6BC77504-4048-4B38-865D-F70DE7F5C198}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MassTransitKevinSmith.Reporting", "MassTransitKevinSmith\MassTransitKevinSmith.Reporting\MassTransitKevinSmith.Reporting.csproj", "{6BC77504-4048-4B38-865D-F70DE7F5C198}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassTransitKevinSmith.Shop", "MassTransitKevinSmith\MassTransitKevinSmith.Shop\MassTransitKevinSmith.Shop.csproj", "{0921F6A8-1CF2-4CA1-865D-13D126C6765E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MassTransitKevinSmith.Shop", "MassTransitKevinSmith\MassTransitKevinSmith.Shop\MassTransitKevinSmith.Shop.csproj", "{0921F6A8-1CF2-4CA1-865D-13D126C6765E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

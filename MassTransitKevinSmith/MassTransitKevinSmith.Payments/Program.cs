@@ -12,7 +12,6 @@ namespace MassTransitKevinSmith.Payments
     {
         static async Task Main(string[] args)
         {
-            //var hostBuilder =
             await Host
                 .CreateDefaultBuilder(args)
                 .ConfigureServices((ctx, services) =>
@@ -25,7 +24,7 @@ namespace MassTransitKevinSmith.Payments
                         {
                             cfg.Host("localhost", "/", h => { });
 
-                            cfg.ReceiveEndpoint("Payments",
+                            cfg.ReceiveEndpoint("ShopOrder",
                                 e =>
                                 {
                                     e.PrefetchCount = 16;
@@ -43,16 +42,6 @@ namespace MassTransitKevinSmith.Payments
                     logging.AddConsole();
                 }).RunConsoleAsync();
 
-
-            //var host = hostBuilder.Build();
-
-            //Console.WriteLine("Welcome to Payments");
-            ////Console.WriteLine("Press Q key to exit");
-            ////while (Console.ReadKey(true).Key != ConsoleKey.Q) ;
-
-
-
-            //await host.RunAsync();
         }
     }
 }

@@ -11,7 +11,7 @@ namespace MassTransitKevinSmith.Payments
         private bool TakePayment(IOrderRequested contextMessage)
         {
             // 3 in 10 payments fail
-            var failsCondition = new[] { 1, 2, 3 };
+            var failsCondition = new[] { 1, 5, 6 };
             var paymentFailed = failsCondition.Contains(Random.Next(1, 10));
 
             if (paymentFailed) Console.WriteLine("TakePayment: Payment Failed: " + contextMessage.Products[0].Number);

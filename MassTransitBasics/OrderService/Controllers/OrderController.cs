@@ -1,12 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 using MassTransit;
 using SharedModels;
-
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace OrderService.Controllers
 {
@@ -21,6 +17,14 @@ namespace OrderService.Controllers
             _publishEndpoint = publishEndpoint;
         }
 
+        [HttpPost]
+        public async Task Post([FromBody] Order order)
+        {
+            await _publishEndpoint.Publish<Order>(order);
+        }
+
+        
+        
         // GET: api/<OrderController>
         [HttpGet]
         public IEnumerable<string> Get()
@@ -33,13 +37,6 @@ namespace OrderService.Controllers
         public string Get(int id)
         {
             return "value";
-        }
-
-        // POST api/<OrderController>
-        [HttpPost]
-        public async Task Post([FromBody] Order order)
-        {
-            await _publishEndpoint.Publish<Order>(order);
         }
 
         // PUT api/<OrderController>/5

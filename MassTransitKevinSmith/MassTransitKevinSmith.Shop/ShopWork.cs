@@ -53,8 +53,9 @@ namespace MassTransitKevinSmith.Shop
                 {
                     await _publishEndpoint.Publish<IOrderRequested>(new
                     {
-                        Products = products.Select(x => new { Name = x.name, Price = x.price, Number = ++number }).ToList()
-                    });
+                        Products = products.Select(x => new {Name = x.name, Price = x.price, Number = ++number})
+                            .ToList()
+                    }, cancellationToken);
 
                     Console.WriteLine("Submitted Order");
 
