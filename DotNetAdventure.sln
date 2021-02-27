@@ -58,13 +58,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cryptography", "Cryptograph
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Albahari", "Albahari", "{3911C268-95E4-4412-A1EC-2371714267EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoConsoleApp1", "Cryptography\Albahari\CryptoConsoleApp1\CryptoConsoleApp1.csproj", "{C1827C58-DE5D-4CFA-BE98-F0066F4858C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoConsoleApp1", "Cryptography\Albahari\CryptoConsoleApp1\CryptoConsoleApp1.csproj", "{C1827C58-DE5D-4CFA-BE98-F0066F4858C5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mediatr", "Mediatr", "{EA8E16CD-ACE8-4822-90A0-686260C76DC3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AspMonsters", "AspMonsters", "{A6B06558-986D-492C-BB9F-CF367358B487}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediatr.AspMonsters", "MediatR\AspMonsters\Mediatr.AspMonsters\Mediatr.AspMonsters.csproj", "{F5B4516A-7853-4DD7-9A75-6F062C9406AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediatr.AspMonsters", "MediatR\AspMonsters\Mediatr.AspMonsters\Mediatr.AspMonsters.csproj", "{F5B4516A-7853-4DD7-9A75-6F062C9406AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EfAndDb", "EfAndDb", "{1A9917EB-86C2-4F70-9295-A3C3F3B54505}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAppEfAndDb", "EfAndDb\ConsoleAppEfAndDb\ConsoleAppEfAndDb.csproj", "{E46262BE-F957-4342-B8A2-E45E9F8A9CD8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EfAndDb.WebRazorApp", "EfAndDb\EfAndDb.WebRazorApp\EfAndDb.WebRazorApp.csproj", "{6CB1BECF-E89F-443A-BCB6-F3D747AD1794}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -148,6 +154,14 @@ Global
 		{F5B4516A-7853-4DD7-9A75-6F062C9406AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5B4516A-7853-4DD7-9A75-6F062C9406AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5B4516A-7853-4DD7-9A75-6F062C9406AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E46262BE-F957-4342-B8A2-E45E9F8A9CD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E46262BE-F957-4342-B8A2-E45E9F8A9CD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E46262BE-F957-4342-B8A2-E45E9F8A9CD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E46262BE-F957-4342-B8A2-E45E9F8A9CD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CB1BECF-E89F-443A-BCB6-F3D747AD1794}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CB1BECF-E89F-443A-BCB6-F3D747AD1794}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CB1BECF-E89F-443A-BCB6-F3D747AD1794}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CB1BECF-E89F-443A-BCB6-F3D747AD1794}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -175,6 +189,8 @@ Global
 		{C1827C58-DE5D-4CFA-BE98-F0066F4858C5} = {3911C268-95E4-4412-A1EC-2371714267EF}
 		{A6B06558-986D-492C-BB9F-CF367358B487} = {EA8E16CD-ACE8-4822-90A0-686260C76DC3}
 		{F5B4516A-7853-4DD7-9A75-6F062C9406AE} = {A6B06558-986D-492C-BB9F-CF367358B487}
+		{E46262BE-F957-4342-B8A2-E45E9F8A9CD8} = {1A9917EB-86C2-4F70-9295-A3C3F3B54505}
+		{6CB1BECF-E89F-443A-BCB6-F3D747AD1794} = {1A9917EB-86C2-4F70-9295-A3C3F3B54505}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {13CC4097-9172-47CD-A5E1-65E5B031C241}
