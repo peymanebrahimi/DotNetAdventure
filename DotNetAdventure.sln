@@ -59,11 +59,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Threading", "Threading", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ThreadingDmitri", "ThreadingDmitri", "{DA5D881D-AF59-4958-A23A-EA935B7A1713}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadingDmitri.ConsoleApp1", "Threading\ThreadingDmitri\ThreadingDmitri.ConsoleApp1\ThreadingDmitri.ConsoleApp1.csproj", "{B1012979-2F2C-465C-B5CC-42C287FA9B78}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadingDmitri.ConsoleApp1", "Threading\ThreadingDmitri\ThreadingDmitri.ConsoleApp1\ThreadingDmitri.ConsoleApp1.csproj", "{B1012979-2F2C-465C-B5CC-42C287FA9B78}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Linq", "Linq", "{1D6677F8-17D5-4AD0-9E00-1F8201F6AD54}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq.ConsoleApp1", "Linq\Linq.ConsoleApp1\Linq.ConsoleApp1.csproj", "{3BB17A77-1743-4FEC-BBBD-E823D24B41BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Linq.ConsoleApp1", "Linq\Linq.ConsoleApp1\Linq.ConsoleApp1.csproj", "{3BB17A77-1743-4FEC-BBBD-E823D24B41BD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
