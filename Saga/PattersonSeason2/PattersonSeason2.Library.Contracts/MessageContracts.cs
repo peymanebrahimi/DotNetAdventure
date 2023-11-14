@@ -1,5 +1,4 @@
 ﻿using MassTransit;
-using MassTransit.Topology.Topologies;
 
 namespace PattersonSeason2.Library.Contracts
 {

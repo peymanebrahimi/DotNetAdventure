@@ -24,7 +24,7 @@ namespace Mediatr.AspMonsters
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
-            services.AddMediatR(typeof(Startup));
+            services.AddMediatR(x=>x.RegisterServicesFromAssembly(typeof(Startup).Assembly));
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

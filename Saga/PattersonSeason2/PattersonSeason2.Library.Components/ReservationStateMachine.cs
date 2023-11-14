@@ -1,4 +1,4 @@
-﻿using Automatonymous;
+﻿using MassTransit;
 using PattersonSeason2.Library.Contracts;
 
 namespace PattersonSeason2.Library.Components
