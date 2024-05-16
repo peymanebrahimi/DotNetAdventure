@@ -45,6 +45,6 @@ public class Car
 
     public override string ToString()
     {
-        return $"car with {WheelCount} and {Color} color";
+        return $"car with {WheelCount} wheel and {Color} color";
     }
 }
