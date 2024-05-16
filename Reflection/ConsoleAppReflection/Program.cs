@@ -1,0 +1,4 @@
+﻿using ConsoleAppReflection;
+
+Assigning.Run();
+

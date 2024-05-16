@@ -67,6 +67,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSharpRecord", "CSharpRecor
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpRecord.ConsoleApp1", "CSharpRecord\CSharpRecord.ConsoleApp1\CSharpRecord.ConsoleApp1.csproj", "{A03FAAA0-951F-4060-8B41-CAC1CC3A9051}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Reflection", "Reflection", "{1D5ABFB0-AC36-4850-9E9F-96AA0C3E8F96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppReflection", "Reflection\ConsoleAppReflection\ConsoleAppReflection.csproj", "{7C7BD680-6E08-472D-812B-4DACDA9A84F6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +145,10 @@ Global
 		{A03FAAA0-951F-4060-8B41-CAC1CC3A9051}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A03FAAA0-951F-4060-8B41-CAC1CC3A9051}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A03FAAA0-951F-4060-8B41-CAC1CC3A9051}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C7BD680-6E08-472D-812B-4DACDA9A84F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C7BD680-6E08-472D-812B-4DACDA9A84F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C7BD680-6E08-472D-812B-4DACDA9A84F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C7BD680-6E08-472D-812B-4DACDA9A84F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -167,6 +175,7 @@ Global
 		{3BB17A77-1743-4FEC-BBBD-E823D24B41BD} = {1D6677F8-17D5-4AD0-9E00-1F8201F6AD54}
 		{725CD617-AFAB-4682-8D54-0009F9408EBA} = {E0DC697A-394B-41E6-93C4-0A02AFF9BF25}
 		{A03FAAA0-951F-4060-8B41-CAC1CC3A9051} = {4D1C7A7D-2629-441E-883E-B07C6D4FC4EB}
+		{7C7BD680-6E08-472D-812B-4DACDA9A84F6} = {1D5ABFB0-AC36-4850-9E9F-96AA0C3E8F96}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {13CC4097-9172-47CD-A5E1-65E5B031C241}
