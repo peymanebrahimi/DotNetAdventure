@@ -1,12 +1,26 @@
 ﻿using System;
 
-namespace DesignPattern.ConsoleApp1
+namespace DesignPattern.ConsoleApp1;
+
+class Program
 {
-    class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
+        var url = new MyUrlBuilder()
+            .WithHost("bing.com")
+            .WithProtocol("https")
+            .Build();
+
+        Console.WriteLine(url);
+
+
+        url = MyUrlBuilder2.Create()
+            .WithHost("google.com")
+            .WithProtocol("http")
+            .Build();
+
+        Console.WriteLine(url);
+
+        Console.ReadLine();
     }
 }
