@@ -26,10 +26,7 @@ public class Car
     public int WheelCount { get;  }
     public string Color { get;  }
 
-    public Car()
-    {
-        
-    }
+    public Car() {}
 
     public Car(int wheelCount)
     {

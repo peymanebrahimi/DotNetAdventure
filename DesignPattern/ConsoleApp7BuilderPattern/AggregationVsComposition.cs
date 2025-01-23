@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-
-namespace DesignPattern.ConsoleApp1
+﻿namespace ConsoleApp7BuilderPattern
 {
     // aggregation vs composition
     public class Employee

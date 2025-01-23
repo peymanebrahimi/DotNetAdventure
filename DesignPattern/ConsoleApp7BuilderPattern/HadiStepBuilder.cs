@@ -1,4 +1,4 @@
-﻿namespace DesignPattern.ConsoleApp1;
+﻿namespace ConsoleApp7BuilderPattern;
 
 // required steps
 // host is required

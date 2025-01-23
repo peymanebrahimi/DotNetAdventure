@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace DesignPattern.ConsoleApp1
+﻿namespace ConsoleApp7BuilderPattern
 {
     public class Address2
     {
