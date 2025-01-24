@@ -97,6 +97,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp2AbstractFactory"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1Visitor", "ZoranDesignPatternResponsibility\ConsoleApp1Visitor\ConsoleApp1Visitor.csproj", "{F22B40AC-E635-485A-B6E2-DBCA30C336D0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp8", "ConsoleApp8\ConsoleApp8.csproj", "{91C7351E-50F7-4AE2-860D-B244D19A21DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -223,6 +225,10 @@ Global
 		{F22B40AC-E635-485A-B6E2-DBCA30C336D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F22B40AC-E635-485A-B6E2-DBCA30C336D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F22B40AC-E635-485A-B6E2-DBCA30C336D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91C7351E-50F7-4AE2-860D-B244D19A21DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91C7351E-50F7-4AE2-860D-B244D19A21DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91C7351E-50F7-4AE2-860D-B244D19A21DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91C7351E-50F7-4AE2-860D-B244D19A21DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -263,6 +269,7 @@ Global
 		{2F5C0B0E-EDC7-468F-AB4D-033BC572FA5F} = {930D4F5E-E6E3-46ED-9476-68CD64F8DDD2}
 		{FCEC3063-B723-4AA9-9624-ADC972DE72CF} = {2F5C0B0E-EDC7-468F-AB4D-033BC572FA5F}
 		{F22B40AC-E635-485A-B6E2-DBCA30C336D0} = {2F5C0B0E-EDC7-468F-AB4D-033BC572FA5F}
+		{91C7351E-50F7-4AE2-860D-B244D19A21DC} = {930D4F5E-E6E3-46ED-9476-68CD64F8DDD2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {13CC4097-9172-47CD-A5E1-65E5B031C241}
