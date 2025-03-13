@@ -1,0 +1,6 @@
+@EventSourcingMarten_HostAddress = http://localhost:5122
+
+GET {{EventSourcingMarten_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
