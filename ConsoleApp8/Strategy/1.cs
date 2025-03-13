@@ -1,14 +1,12 @@
 ﻿/*
- * Problem: You have an algorithm that varies depending on the context. You want to easily switch between these algorithms at runtime without modifying the core logic.
+ * Problem: You have an algorithm that varies depending on the context.
+ * You want to easily switch between these algorithms at runtime without modifying the core logic.
  * 
  */
 
 namespace ConsoleApp8.Strategy
 {
-   public class Order
-    {
-        
-    }
+   public class Order { }
 }
 namespace ConsoleApp8.Strategy.WithoutPattern
 {

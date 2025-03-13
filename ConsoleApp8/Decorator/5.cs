@@ -5,17 +5,9 @@
         public decimal Cost { get; set; } = 1.00m; 
     }
 
-    public class CoffeeWithMilk
+    public class CoffeeWithMilk(Coffee coffee)
     {
-        private Coffee _coffee;
-
-        public CoffeeWithMilk(Coffee coffee)
-        {
-            _coffee = coffee;
-            Cost = coffee.Cost + 0.50m; 
-        }
-
-        public decimal Cost { get; set; } 
+        public decimal Cost { get; set; } = coffee.Cost + 0.50m;
     }
 }
 
@@ -33,25 +25,18 @@ namespace ConsoleApp8.Decorator.WithPattern2
         public decimal Cost { get; set; } = 1.00m; 
     }
 
-    public abstract class CondimentDecorator : IBeverage
+    public abstract class CondimentDecorator(IBeverage beverage) : IBeverage
     {
-        protected IBeverage _beverage;
-
-        public CondimentDecorator(IBeverage beverage)
-        {
-            _beverage = beverage;
-        }
+        protected readonly IBeverage Beverage = beverage;
 
         public abstract string Description { get; } 
         public abstract decimal Cost { get; }
     }
 
-    public class Milk : CondimentDecorator
+    public class Milk(IBeverage beverage) : CondimentDecorator(beverage)
     {
-        public Milk(IBeverage beverage) : base(beverage) { }
-
-        public override string Description => _beverage.Description + ", Milk";
-        public override decimal Cost => _beverage.Cost + 0.50m;
+        public override string Description => Beverage.Description + ", Milk";
+        public override decimal Cost => Beverage.Cost + 0.50m;
     }
 
 // Usage:

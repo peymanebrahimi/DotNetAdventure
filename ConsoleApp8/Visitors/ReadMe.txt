@@ -35,10 +35,14 @@ into these classes or the Publication class.
 
 
 •
-Traditional Approach: Without the Visitor pattern, the Publication class might have to handle the formatting of author names directly. This means, that for every way that the author's name needs to be formatted, you would need a new method in the Publication class, and every method would need to handle the different name types. This could lead to a complex Publication class, with many methods, each handling slightly different formatting variations.
+Traditional Approach: Without the Visitor pattern, the Publication class might have to handle 
+the formatting of author names directly. This means, that for every way that the author's name needs to be formatted, 
+you would need a new method in the Publication class, and every method would need to handle the different name types. 
+This could lead to a complex Publication class, with many methods, each handling slightly different formatting variations.
 
 •
-Code Explosion: Directly adding formatting logic to each class in the hierarchy or to the Publication class, could lead to an "explosion" of methods. For each new formatting requirement you would need to add more and more methods.
+Code Explosion: Directly adding formatting logic to each class in the hierarchy or to the Publication class, 
+could lead to an "explosion" of methods. For each new formatting requirement you would need to add more and more methods.
 
 
 چندین کلاس داریم

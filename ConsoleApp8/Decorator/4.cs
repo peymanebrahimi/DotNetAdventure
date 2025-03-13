@@ -5,26 +5,17 @@ namespace ConsoleApp8.Decorator.WithoutPattern
 {
     public class Car
     {
-        public virtual void Drive() 
-        { 
-            Console.WriteLine("Car is driving."); 
-        }
+        public virtual void Drive() => Console.WriteLine("Car is driving.");
     }
 
     public class SportsCar : Car
     {
-        public override void Drive() 
-        { 
-            Console.WriteLine("Sports car is driving fast."); 
-        }
+        public override void Drive() => Console.WriteLine("Sports car is driving fast.");
     }
 
     public class LuxuryCar : Car
     {
-        public override void Drive() 
-        { 
-            Console.WriteLine("Luxury car is driving smoothly."); 
-        }
+        public override void Drive() => Console.WriteLine("Luxury car is driving smoothly.");
     }
 }
 
@@ -37,31 +28,16 @@ namespace ConsoleApp8.Decorator.WithPattern
 
     public class Car : ICar
     {
-        public virtual void Drive() 
-        { 
-            Console.WriteLine("Car is driving."); 
-        }
+        public virtual void Drive() => Console.WriteLine("Car is driving.");
     }
 
-    public abstract class CarDecorator : ICar
+    public abstract class CarDecorator(ICar car) : ICar
     {
-        protected ICar _car;
-
-        public CarDecorator(ICar car) 
-        { 
-            _car = car; 
-        }
-
-        public virtual void Drive() 
-        { 
-            _car.Drive(); 
-        }
+        public virtual void Drive() => car.Drive();
     }
 
-    public class SportsCarDecorator : CarDecorator
+    public class SportsCarDecorator(ICar car) : CarDecorator(car)
     {
-        public SportsCarDecorator(ICar car) : base(car) { }
-
         public override void Drive() 
         { 
             base.Drive(); 
@@ -69,10 +45,8 @@ namespace ConsoleApp8.Decorator.WithPattern
         }
     }
 
-    public class LuxuryCarDecorator : CarDecorator
+    public class LuxuryCarDecorator(ICar car) : CarDecorator(car)
     {
-        public LuxuryCarDecorator(ICar car) : base(car) { }
-
         public override void Drive() 
         { 
             base.Drive(); 

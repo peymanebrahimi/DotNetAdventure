@@ -1,4 +1,14 @@
-﻿namespace ConsoleApp8.Decorator;
+﻿/*
+ * Key improvements and explanations for ERP context:
+
+Clearer Product Hierarchy: The IProduct, BaseProduct, and ProductDecorator structure is more robust and clearly defines the component and decorator roles.
+Realistic Decorators: The example decorators (Warranty, Installation, Gift Wrapping) are more relevant to an ERP system, especially for handling products with optional services or add-ons. You can easily add more (e.g., Shipping, Rush Order, etc.).
+ERPOrder Class: This class simulates a simplified order processing system within an ERP. It holds a collection of IProduct objects (which can be base products or decorated products). This is crucial for demonstrating how decorators are used in a real-world scenario.
+Order Processing Logic: The ProcessOrder method in ERPOrder iterates through the products in the order and calculates the total price, demonstrating how the decorators' added functionality (price and description changes) are applied during order processing.
+Example Usage: The Main method clearly shows how to create a base product and then dynamically add decorators to it. The ERP order example shows how you would use these decorated products in a typical ERP workflow.
+Flexibility: The decorator pattern allows you to combine different enhancements in any order without modifying the core BaseProduct class. This is extremely important in ERP systems where product configurations can be complex.
+ */
+namespace ConsoleApp8.Decorator;
 
 using System;
 using System.Collections.Generic;

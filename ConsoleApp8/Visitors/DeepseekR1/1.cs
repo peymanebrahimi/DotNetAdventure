@@ -1,9 +1,7 @@
 ﻿/*
  * When to Use Visitor Pattern
 When you have a stable object structure but frequently changing operations.
-
 When you want to avoid polluting classes with unrelated operations.
-
 When you need to perform operations across a hierarchy of objects.
  */
 
